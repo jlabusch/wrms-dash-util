@@ -15,6 +15,7 @@ module.exports = {
     quote_funcs:            require('./lib/quote_funcs'),
     round_to_half_hour:     require('./lib/round_to_half_hour'),
     send_err_if_not_vendor: require('./lib/send_err_if_not_vendor'),
+    send_post:              require('./lib/send_post'),
     server:     require('./lib/server'),
     swapper:    require('./lib/swapper'),
     trim:       require('./lib/trim')
