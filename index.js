@@ -13,6 +13,7 @@ module.exports = {
     ON_ERROR_CONTINUE:      promises.ON_ERROR_CONTINUE,
     promise_sequence:       promises.promise_sequence,
     quote_funcs:            require('./lib/quote_funcs'),
+    request:                require('./lib/request_wrapper'),
     round_to_half_hour:     require('./lib/round_to_half_hour'),
     send_err_if_not_vendor: require('./lib/send_err_if_not_vendor'),
     send_post:              require('./lib/send_post'),
